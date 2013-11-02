@@ -1,6 +1,7 @@
 {
-  "name": "Modernizr",
-  "version": "3.0.0pre",
+  "name": "standard-modernizr",
+  "title": "Modernizr",
+  "version": "3.0.0alpha",
   "description": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
   "directories": {
     "test": "test"
@@ -28,7 +29,7 @@
   "scripts": {
     "test": "grunt test"
   },
-  "main": "./lib/cli",
+  "main": "./dist/modernizr-build.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/Modernizr/Modernizr.git"
